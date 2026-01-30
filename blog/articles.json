@@ -1,0 +1,49 @@
+{
+    "articles": [
+      {
+        "id": "st-psycho",
+        "title": "Stranger Things : une lecture psychologique et thérapeutique",
+        "slug": "stranger-things-lecture-psychologique",
+        "url": "/blog/articles/stranger-things-lecture-psychologique.html",
+        "date": "2026-01-29",
+        "readingTime": "8 min",
+        "excerpt": "Pourquoi cette série fascine bien au-delà de l'horreur et comment elle explore avec finesse les mécanismes profonds du trauma, de la mémoire et de la reconstruction identitaire.",
+        "tags": ["psychologie", "trauma", "memoire", "culture"],
+        "situations": ["sensibilite", "peur-du-jugement"],
+        "searchKeywords": ["trauma", "memoire", "inconscient", "stranger things", "psychologie", "sensible", "jugement", "emotion", "refoulement", "therapie", "guerir", "relation", "eleven", "upside down", "monstrueux", "peur"],
+        "category": "Psychologie & Culture",
+        "image": "/assets/img/stranger-things.jpg",
+        "featured": true
+      },
+      {
+        "id": "positionnement",
+        "title": "L'art du positionnement : trouver sa place unique",
+        "slug": "art-du-positionnement",
+        "url": "/blog/articles/art-du-positionnement.html",
+        "date": "2026-01-22",
+        "readingTime": "6 min",
+        "excerpt": "Comment clarifier votre identité professionnelle et construire un positionnement qui résonne avec vos valeurs profondes et votre singularité.",
+        "tags": ["leadership", "positionnement", "identite", "strategie"],
+        "situations": ["positionnement-flou", "trouver-sa-voie"],
+        "searchKeywords": ["positionnement", "identite", "clarté", "direction", "flou", "perdu", "carriere", "voie", "mission", "valeurs", "vision", "qui je suis", "ma place", "unique", "singularite", "different"],
+        "category": "Leadership",
+        "image": "/assets/img/positionnement.jpg",
+        "featured": false
+      },
+      {
+        "id": "douceur",
+        "title": "Le pouvoir de la douceur en leadership",
+        "slug": "pouvoir-de-la-douceur",
+        "url": "/blog/articles/pouvoir-de-la-douceur.html",
+        "date": "2026-01-15",
+        "readingTime": "7 min",
+        "excerpt": "Pourquoi la douceur n'est pas une faiblesse mais une force stratégique qui transforme votre impact et crée une autorité durable.",
+        "tags": ["leadership", "psychologie", "sensibilite", "communication"],
+        "situations": ["sensibilite", "dire-non", "peur-du-jugement"],
+        "searchKeywords": ["douceur", "sensible", "force", "leadership", "gentil", "faiblesse", "autorite", "respect", "dire non", "limites", "trop gentil", "empathie", "bienveillance", "vulnerable"],
+        "category": "Leadership",
+        "image": "/assets/img/douceur.jpg",
+        "featured": false
+      }
+    ]
+  }

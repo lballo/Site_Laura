@@ -1,0 +1,13 @@
+# robots.txt pour lauraballo.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lauraballo.com/sitemap.xml
+
+# Fichiers à exclure de l'indexation
+Disallow: /*.json$
+Disallow: /*.map$
+Disallow: /assets/js/
+Disallow: /assets/css/
