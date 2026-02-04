@@ -1,0 +1,55 @@
+<!-- ============================================
+     HEADER / NAVIGATION
+     Fichier : assets/components/header.html
+     ============================================ -->
+
+<!-- NAVIGATION -->
+<nav class="nav" id="nav">
+  <div class="nav-progress" id="navProgress"></div>
+  <a href="/" class="nav-logo">
+    <img src="/assets/img/Laura-Ballo-white-high-res.png" alt="Laura Ballo - Coaching Leadership Premium">
+  </a>
+  <div class="nav-links">
+    <a href="/#process">Comment</a>
+    <a href="/#projets">Projets</a>
+    <div class="nav-dropdown">
+      <a href="#">Quiz</a>
+      <div class="nav-dropdown-menu">
+        <a href="/quizz/hypersensibilite.html">Hypersensibilité</a>
+        <a href="/quizz/savoir-dire-non.html">Savoir dire non</a>
+        <a href="/quizz/jugement-autre.html">Jugement de l'autre</a>
+        <a href="/quizz/prise-de-parole.html">Prise de parole en public</a>
+      </div>
+    </div>
+    <a href="/blog/index.html">Blog</a>
+    <a href="/#temoignages">Témoignages</a>
+    <a href="/#a-propos">À propos</a>
+    <a href="/#faq">FAQ</a>
+    <a href="/#contact" class="btn btn-secondary">Réserver un appel</a>
+  </div>
+  <div class="nav-burger" id="navBurger" onclick="toggleMobileMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="nav-mobile" id="navMobile">
+  <a href="/#process" onclick="closeMobileMenu()">Comment</a>
+  <a href="/#projets" onclick="closeMobileMenu()">Projets</a>
+  <details class="nav-mobile-dropdown">
+    <summary>Quizz</summary>
+    <div class="nav-mobile-dropdown__items">
+      <a href="/quizz/hypersensibilite.html" onclick="closeMobileMenu()">Hypersensibilité</a>
+      <a href="/quizz/savoir-dire-non.html" onclick="closeMobileMenu()">Savoir dire non</a>
+      <a href="/quizz/jugement-autre.html" onclick="closeMobileMenu()">Jugement de l'autre</a>
+      <a href="/quizz/prise-de-parole.html" onclick="closeMobileMenu()">Prise de parole</a>
+    </div>
+  </details>
+  <a href="/blog/index.html" onclick="closeMobileMenu()">Blog</a>
+  <a href="/#temoignages" onclick="closeMobileMenu()">Témoignages</a>
+  <a href="/#a-propos" onclick="closeMobileMenu()">À propos</a>
+  <a href="/#faq" onclick="closeMobileMenu()">FAQ</a>
+  <a href="/#contact" class="btn btn-primary" onclick="closeMobileMenu()">Réserver un appel</a>
+</div>
